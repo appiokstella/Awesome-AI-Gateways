@@ -1,27 +1,45 @@
-# Awesome-AI-Gateways
-## Top AI Gateways (OpenRouter Alternatives) Ecosystem
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Portkey-AI/gateway/main/docs/images/gateway-banner.png" width="100%" alt="Awesome AI Gateway Banner" />
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on LLM Routing, Proxy, Load Balancing & Multi-Provider Gateways*  
-**Last updated: March 2026**
+  <h1>🚀 Awesome AI Gateways</h1>
 
-This repository tracks notable **SaaS platforms** and **open-source projects** building **AI Gateways** — intelligent proxies and routers that unify access to multiple LLMs (OpenAI, Anthropic, Groq, Gemini, local models, etc.), handle fallback, load balancing, cost optimization, observability, caching, and rate limiting.
+  <p><strong>A curated list of the best AI Gateways, LLM Routers, and Proxies to unify OpenAI, Anthropic, Gemini, and more.</strong></p>
 
-**Examples** include OpenRouter, LiteLLM, Portkey, Glama, and Cloudflare AI Gateway (the category leaders). Tools listed here emphasize **unified API**, model routing, reliability, cost control, and privacy.
+  <p>
+    <img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" alt="Maintained" />
+    <img src="https://img.shields.io/badge/Awesome-Gateways-blueviolet" alt="Awesome" />
+    <img src="https://img.shields.io/badge/LLM-Routing-FF69B4" alt="LLM Routing" />
+    <img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Gateways?style=flat&color=yellow" alt="Stars" />
+    <img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-AI-Gateways" alt="Last Commit" />
+  </p>
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, local deployment, full customization, and complete data control — ideal for developers and teams wanting sovereign, high-performance LLM gateways.
+  <h4>Unified API • Load Balancing • Fallbacks • Cost Tracking • Observability</h4>
+</div>
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
+---
 
-## Table of Contents
-- [SaaS Products](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
+## 🌟 Introduction
 
-## SaaS Products
+This repository is an SEO-optimized, curated ecosystem of **SaaS platforms** and **Open-Source projects** for building **AI Gateways**. These intelligent proxies act as a unified bridge to multiple LLM providers, ensuring high availability, performance, and significant cost savings.
 
-### Core AI Gateway Comparison
+### 🔄 How it Works
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Portkey-AI/gateway/main/docs/images/gateway-demo.gif" width="80%" alt="AI Gateway Routing Demo" />
+</div>
+
+---
+
+## 📑 Table of Contents
+- [🌐 SaaS Products](#-saas-products)
+- [🏗️ Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer](#-disclaimer)
+
+---
+
+## 🌐 SaaS Products
+
+### 📊 Core AI Gateway Comparison
 
 | SaaS Product | Pricing Model | Free Tier Limit | Key Features |
 | :--- | :--- | :--- | :--- |
@@ -33,79 +51,73 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | **[LiteLLM Cloud](https://litellm.ai/)** | Enterprise ($250/mo+) | 7-30 day trial | Managed proxy with RBAC, budget management, and SSO. |
 | **[Glama](https://glama.ai/)** | Pay-as-you-go | Free MCP hosting | Performance-focused gateway and MCP server hosting. |
 
-### Platform Details
+### 🛠️ Platform Details
 
-- **[OpenRouter](https://openrouter.ai/)**  
+- **[OpenRouter](https://openrouter.ai/)** 🚀  
   Leading intelligent router that aggregates dozens of LLMs with smart model routing, fallback, and competitive pricing.
-- **[LiteLLM](https://litellm.ai/)** (with hosted options)  
+- **[LiteLLM](https://litellm.ai/)** 🛡️  
   Popular proxy layer with unified API and advanced routing, logging, and cost management features.
-- **[Portkey](https://portkey.ai/)**  
+- **[Portkey](https://portkey.ai/)** 🔑  
   Full-featured AI gateway with observability, caching, guardrails, and multi-provider routing.
-- **[Glama](https://glama.ai/)**  
+- **[Glama](https://glama.ai/)** 💎  
   Modern AI gateway focused on performance, reliability, and developer-friendly features.
-- **[Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/)**  
+- **[Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/)** ☁️  
   Edge-native gateway with powerful caching, rate limiting, and global performance benefits.
-- **[Helicone](https://helicone.ai/)**  
+- **[Helicone](https://helicone.ai/)** 🔦  
   Popular observability platform for LLMs with easy integration via proxy or SDK.
-- **[PromptLayer](https://promptlayer.com/)**  
+- **[PromptLayer](https://promptlayer.com/)** 📑  
   Specialized platform for prompt engineering, management, and tracking production LLM usage.
 
-## Open-Source GitHub Projects
+---
 
-### Dedicated AI Gateway & Proxy Solutions
+## 🏗️ Open-Source GitHub Projects
 
-- **[LiteLLM](https://github.com/BerriAI/litellm)**  
-  The most popular open-source LLM proxy and gateway. Supports 100+ models with unified OpenAI-compatible API, load balancing, fallback, caching, logging, and cost tracking. Can be self-hosted easily.
+### 🛠️ Dedicated AI Gateway & Proxy Solutions
 
-- **[Portkey Gateway (Open Source Components)](https://github.com/Portkey-AI/gateway)**  
+- **[LiteLLM](https://github.com/BerriAI/litellm)** ⭐  
+  The most popular open-source LLM proxy and gateway. Supports 100+ models with unified OpenAI-compatible API, load balancing, fallback, caching, logging, and cost tracking.
+
+- **[Portkey Gateway](https://github.com/Portkey-AI/gateway)** 🧩  
   Open-source core of Portkey with powerful routing, observability, and guardrails capabilities.
 
-- **[OpenRouter Self-Hosted Alternatives](https://github.com/search?q=openrouter+self+hosted)**  
+- **[OpenRouter Self-Hosted](https://github.com/search?q=openrouter+self+hosted)** 🏠  
   Community self-hosted routers inspired by OpenRouter with multi-provider support.
 
-- **[vLLM + FastAPI Gateways](https://github.com/vllm-project/vllm)**  
+- **[vLLM + FastAPI Gateways](https://github.com/vllm-project/vllm)** ⚡  
   High-performance inference server with custom gateway layers for production LLM routing.
 
-- **[Text Generation WebUI (Oobabooga)](https://github.com/oobabooga/text-generation-webui)**  
-  Popular local LLM interface with OpenAI-compatible API server, widely used as a self-hosted gateway.
-
-- **[Ollama + Open WebUI](https://github.com/open-webui/open-webui)**  
+- **[Ollama + Open WebUI](https://github.com/open-webui/open-webui)** 🐳  
   Complete local LLM platform with robust API gateway and multi-model routing capabilities.
 
-- **[LocalAI](https://github.com/mudler/LocalAI)**  
+- **[LocalAI](https://github.com/mudler/LocalAI)** 🤖  
   Self-hosted drop-in replacement for OpenAI with support for many backends and gateway features.
 
-- **[FastChat](https://github.com/lm-sys/FastChat)**  
+- **[FastChat](https://github.com/lm-sys/FastChat)** 💬  
   Open platform for training, serving, and evaluating chatbots with multi-model gateway support.
 
-- **[Aphrodite Engine](https://github.com/PygmalionAI/aphrodite-engine)** (and forks)  
-  High-throughput inference engine with strong gateway and proxy capabilities.
-
-### Additional Strong Open-Source Options
+### 📦 Additional Strong Open-Source Options
 
 - **[LangChain / LangGraph Routers](https://github.com/langchain-ai/langgraph)** — For building intelligent agentic routing logic.
 - **[Semantic Kernel](https://github.com/microsoft/semantic-kernel)** — Microsoft’s AI orchestration with gateway-like features.
-- **[Haystack](https://github.com/deepset-ai/haystack)** — Production LLM pipelines with routing components.
 - **[Dify](https://github.com/langgenius/dify)** — AI app platform with built-in model routing and gateway.
-- Many community **FastAPI + LiteLLM** custom gateways for specific use cases (caching, guardrails, logging).
-- **Cloudflare Workers + AI Gateway** open-source patterns and templates.
 
-**Frameworks for building custom gateways**: Use **LiteLLM** as the foundation + **FastAPI** + **Redis** (for caching) + **LangGraph** for advanced routing logic. Deploy with Docker for full self-hosting.
+---
 
-## How to Contribute
+## 🤝 How to Contribute
 
 1. Fork the repo.
 2. Add/edit entries in `README.md` (follow existing format).
 3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
 4. Submit PR with a short explanation.
 
-Star the repo if you find it useful!
+---
 
-## Disclaimer
+## ⚖️ Disclaimer
 
 - This is a **community-curated** list — not exhaustive and not an endorsement.
 - Self-hosted open-source gateways require proper security, monitoring, and rate limiting configuration.
-- Always respect provider terms when routing through third-party models.
+
+---
 
 ## 📈 Star History
 
